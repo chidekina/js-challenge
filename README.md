@@ -6,7 +6,12 @@
 * [Somar ímpares](#3-somar-ímpares)
 * [Criptografia de César](#4-criptografia-de-césar)
 * [Converter data ISO para BR](#5-converter-data-iso-para-br)
-* 
+* [Inverter lista](#6-inverter-lista)
+* [Template](#7-template)
+* [Converter data BR para ISO](#8-converter-data-br-para-iso)
+* [Minúsculo para maiúsculo](#9-minúsculo-para-maiúsculo)
+* [Data atual](#10-data-atual)
+* [Primeira letra maiúscula](#11-primeira-letra-maiúscula)
 
 # JS Challenge - 
 
