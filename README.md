@@ -285,31 +285,31 @@ Para esse desafio você vai precisar criar uma função que seja capaz de recebe
 
 ### 🔶 **inverterLista();** ###
 
-🔹 **Resultado:** 
+🔹 **Resultado:** Função aceita apenas array como argumento.
 
 ### 🔶 **inverterLista(["HTML","CSS","JS","ReactJS"]);** ###
 
-🔹 **Resultado:** 
+🔹 **Resultado:** ["ReactJS","JS","CSS","HTML"]
 
 ### 🔶 **inverterLista("array list");** ###
 
-🔹 **Resultado:** 
+🔹 **Resultado:** Função aceita apenas array como argumento.
 
 ### 🔶 **inverterLista([{"type":"Frontend"},{"type":"Backend"}]);** ###
 
-🔹 **Resultado:** 
+🔹 **Resultado:**  [{"type":"Backend"},{"type":"Frontend"}]
 
 ### 🔶 **inverterLista({});** ###
 
-🔹 **Resultado:** 
+🔹 **Resultado:** Função aceita apenas array como argumento.
 
 ### 🔶 **inverterLista([]);** ###
 
-🔹 **Resultado:** 
+🔹 **Resultado:** []
 
 ### 🔶 **inverterLista(10);** ###
 
-🔹 **Resultado:** 
+🔹 **Resultado:** Função aceita apenas array como argumento.
 
 ## **7. [Template](https://kelvysmoura.github.io/js-logic/#template)** ##
 
@@ -331,15 +331,15 @@ Neste desafio você vai precisar criar uma função que receber como primeiro ar
 
 ### 🔶 **template({"fulano":"Dev"}, "Bem vindo :fulano:!");** ###
 
-🔹 **Resultado:** 
+🔹 **Resultado:** Bem vindo Dev!
 
 ### 🔶 **template({"username":"Dev"}, "Olá :username:, vamos iniciar a sua jornada?");** ###
 
-🔹 **Resultado:** 
+🔹 **Resultado:** Olá Dev, vamos iniciar a sua jornada?
 
 ### 🔶 **template({"username":"Dev","order":123}, "Parabéns :username:, seu pedido #:order: foi finalizado com sucesso!");** ###
 
-🔹 **Resultado:** 
+🔹 **Resultado:** Parabéns Dev, seu pedido #123 foi finalizado com sucesso!
 
 
 ## **8. [Converter data BR para ISO](https://kelvysmoura.github.io/js-logic/#converterDataParaBr)** ##
@@ -356,59 +356,59 @@ Neste desafio você vai precisar criar um função que recebe uma data no format
 
 ### 🔶 **converterDataParaBr();** ###
 
-🔹 **Resultado:** 
+🔹 **Resultado:** Data inválida!
 
 ### 🔶 **converterDataParaBr("12/09/2024");** ###
 
-🔹 **Resultado:** 
+🔹 **Resultado:** 2024-09-12
 
 ### 🔶 **converterDataParaBr("2024/09");** ###
 
-🔹 **Resultado:** 
+🔹 **Resultado:** Data inválida!
 
 ### 🔶 **converterDataParaBr("09/13");** ###
 
-🔹 **Resultado:** 
+🔹 **Resultado:** Data inválida!
 
 ### 🔶 **converterDataParaBr("13/09/2024");** ###
 
-🔹 **Resultado:** 
+🔹 **Resultado:** 2024-09-13
 
 ### 🔶 **converterDataParaBr("22/09/13");** ###
 
-🔹 **Resultado:** 
+🔹 **Resultado:** Data inválida!
 
 ### 🔶 **converterDataParaBr("2020-09/13");** ###
 
-🔹 **Resultado:** 
+🔹 **Resultado:** Data inválida!
 
 ### 🔶 **converterDataParaBr("13-09-2024");** ###
 
-🔹 **Resultado:** 
+🔹 **Resultado:** Data inválida!
 
 ### 🔶 **converterDataParaBr("data");** ###
 
-🔹 **Resultado:** 
+🔹 **Resultado:** Data inválida!
 
 ### 🔶 **converterDataParaBr(123);** ###
 
-🔹 **Resultado:** 
+🔹 **Resultado:** Data inválida!
 
 ### 🔶 **converterDataParaBr({});** ###
 
-🔹 **Resultado:** 
+🔹 **Resultado:** Data inválida!
 
 ### 🔶 **converterDataParaBr([]);** ###
 
-🔹 **Resultado:** 
+🔹 **Resultado:** Data inválida!
 
 ### 🔶 **converterDataParaBr(true);** ###
 
-🔹 **Resultado:** 
+🔹 **Resultado:** Data inválida!
 
 ### 🔶 **converterDataParaBr(false);** ###
 
-🔹 **Resultado:** 
+🔹 **Resultado:** Data inválida!
 
 
 ## **9. [Minúsculo para maiúsculo](https://kelvysmoura.github.io/js-logic/#minusculoParaMaiusculo)** ##
@@ -425,43 +425,43 @@ Neste desafio você vai receber um texto qualquer e precisará retornar o mesmo 
 
 ### 🔶 **minusculoParaMaiusculo();** ###
 
-🔹 **Resultado:** 
+🔹 **Resultado:** Argumento inválido!
 
 ### 🔶 **minusculoParaMaiusculo("katchau!");** ###
 
-🔹 **Resultado:** 
+🔹 **Resultado:** KATCHAU!
 
 ### 🔶 **minusculoParaMaiusculo(123);** ###
 
-🔹 **Resultado:** 
+🔹 **Resultado:** Argumento inválido!
 
 ### 🔶 **minusculoParaMaiusculo("Texto em letras maiúsculas");** ###
 
-🔹 **Resultado:** 
+🔹 **Resultado:** TEXTO EM LETRAS MAIÚSCULAS
 
 ### 🔶 **minusculoParaMaiusculo(["Texto"]);** ###
 
-🔹 **Resultado:** 
+🔹 **Resultado:** Argumento inválido!
 
 ### 🔶 **minusculoParaMaiusculo("CONTEÚDO DE TEXTO");** ###
 
-🔹 **Resultado:** 
+🔹 **Resultado:** CONTEÚDO DE TEXTO
 
 ### 🔶 **minusculoParaMaiusculo({});** ###
 
-🔹 **Resultado:** 
+🔹 **Resultado:** Argumento inválido!
 
 ### 🔶 **minusculoParaMaiusculo(false);** ###
 
-🔹 **Resultado:** 
+🔹 **Resultado:** Argumento inválido!
 
 ### 🔶 **minusculoParaMaiusculo("0123456789");** ###
 
-🔹 **Resultado:** 
+🔹 **Resultado:** 0123456789
 
 ### 🔶 **minusculoParaMaiusculo(true);** ###
 
-🔹 **Resultado:** 
+🔹 **Resultado:** Argumento inválido!
 
 
 ## **10. [Data atual](https://kelvysmoura.github.io/js-logic/#dataAtual)** ##
@@ -497,40 +497,40 @@ Neste desafio você vai receber um texto qualquer e precisará retornar o mesmo 
 
 ### 🔶 **primeiraLetraMaiuscula();** ###
 
-🔹 **Resultado:** 
+🔹 **Resultado:** Argumento inválido!
 
 ### 🔶 **primeiraLetraMaiuscula("Katchau!");** ###
 
-🔹 **Resultado:** 
+🔹 **Resultado:** Katchau!
 
 ### 🔶 **primeiraLetraMaiuscula(123);** ###
 
-🔹 **Resultado:** 
+🔹 **Resultado:** Argumento inválido!
 
 ### 🔶 **primeiraLetraMaiuscula("texto em letras maiúsculas");** ###
 
-🔹 **Resultado:** 
+🔹 **Resultado:** Texto Em Letras Maiúsculas
 
 ### 🔶 **primeiraLetraMaiuscula(["Texto"]);** ###
 
-🔹 **Resultado:** 
+🔹 **Resultado:** Argumento inválido!
 
 ### 🔶 **primeiraLetraMaiuscula("cONTEÚDO de tEXTO");** ###
 
-🔹 **Resultado:** 
+🔹 **Resultado:** Conteúdo De Texto
 
 ### 🔶 **primeiraLetraMaiuscula({});** ###
 
-🔹 **Resultado:** 
+🔹 **Resultado:** Argumento inválido!
 
 ### 🔶 **primeiraLetraMaiuscula(false);** ###
 
-🔹 **Resultado:** 
+🔹 **Resultado:** Argumento inválido!
 
 ### 🔶 **primeiraLetraMaiuscula("0123456789");** ###
 
-🔹 **Resultado:** 
+🔹 **Resultado:** 0123456789
 
 ### 🔶 **primeiraLetraMaiuscula(true);** ###
 
-🔹 **Resultado:** 
+🔹 **Resultado:** Argumento inválido!
