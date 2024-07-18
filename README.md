@@ -1,4 +1,14 @@
-# JS Challenges - 
+# Índice
+
+* [JS Challenge](#js-challenge--)
+* [Hello World](#1-hello-world)
+* [Somar números](##2-somar-números)
+* [Somar ímpares](#3-somar-ímpares)
+* [Criptografia de César](#4-criptografia-de-césar)
+* [Converter data ISO para BR](#5-converter-data-iso-para-br)
+* 
+
+# JS Challenge - 
 
 O [JS Challenge](https://kelvysmoura.github.io/js-logic/challenges/) tem como intuito solucionar questões de lógicas práticas dividida em 11 desafios variados.
 
@@ -252,3 +262,270 @@ Neste desafio você vai precisar criar um função que recebe uma data no format
 ### 🔶 **criptografiaCesar({}, 5);** ###
 
 🔹 **Resultado:** Função aceita apenas strings e números.
+
+
+## **6. [Inverter lista](https://kelvysmoura.github.io/js-logic/#inverterLista)** ##
+
+Invertendo lista.
+_Para este desafio, não foi permitido o uso dos métodos da Array(Array.reverse; Array.push...)_
+
+Para esse desafio você vai precisar criar uma função que seja capaz de receber um array como argumento e retorna esse mesmo array porém na ordem inversa. Para os casos em que sua função receber um argumento diferente de array, deverá ser retornada uma mensagem de erro.
+
+**Requisitos**
+
++ Criar uma função inverterLista
++ Sua função deve ser capaz de receber pelo menos um argumento
++ Quando a função receber como argumento um array, deverá retornar os mesmo array recebido porém na ordem invertida
++ Quando a função receber qualquer outro argumento diferente de um array, deverá retornar a frase "Função aceita apenas array como argumento."
+
+### 🔶 **inverterLista();** ###
+
+🔹 **Resultado:** 
+
+### 🔶 **inverterLista(["HTML","CSS","JS","ReactJS"]);** ###
+
+🔹 **Resultado:** 
+
+### 🔶 **inverterLista("array list");** ###
+
+🔹 **Resultado:** 
+
+### 🔶 **inverterLista([{"type":"Frontend"},{"type":"Backend"}]);** ###
+
+🔹 **Resultado:** 
+
+### 🔶 **inverterLista({});** ###
+
+🔹 **Resultado:** 
+
+### 🔶 **inverterLista([]);** ###
+
+🔹 **Resultado:** 
+
+### 🔶 **inverterLista(10);** ###
+
+🔹 **Resultado:** 
+
+## **7. [Template](https://kelvysmoura.github.io/js-logic/#template)** ##
+
+Um template geralmente é uma estrutura de texto padrão com espaços reservados por meio de identificadores para adicionar a informação real. Por exemplo, um template de email sempre terá a mesma estrutura e o que muda é o nome do usuário que recebe esse email.
+
+**Exemplo** <>Bem vindo :fulano:<>
+
+**Resultado esperado** <>Bem vindo João<>
+
+Em algum momento no código, antes desse email ser enviado foi identificado no banco o usuário de nome João essa informação foi passada para função responsável por adicionar os dados ao template e substituir os identificadores pelo valor real.
+
+Neste desafio você vai precisar criar uma função que receber como primeiro argumento uma string e como segundo argumento um template html simples que contém um identificador que precisa ser substituído pelo valor do primeiro argumento.
+
+**Requisitos**
+
++ Criar uma função template
++ Sua função deve ser capaz de receber dois argumentos, um objeto e uma string
++ A função dev substituir todos os identificadores encontrados dentro do objeto
+
+### 🔶 **template({"fulano":"Dev"}, "Bem vindo :fulano:!");** ###
+
+🔹 **Resultado:** 
+
+### 🔶 **template({"username":"Dev"}, "Olá :username:, vamos iniciar a sua jornada?");** ###
+
+🔹 **Resultado:** 
+
+### 🔶 **template({"username":"Dev","order":123}, "Parabéns :username:, seu pedido #:order: foi finalizado com sucesso!");** ###
+
+🔹 **Resultado:** 
+
+
+## **8. [Converter data BR para ISO](https://kelvysmoura.github.io/js-logic/#converterDataParaBr)** ##
+
+Os bancos de dados geralmente guardam as datas no forma ISO 8601, que é o padrão aaaa-mm-dd (ano-mês-dia). Então quando pegamos uma informações de data do banco precisamos converter para o padrão brasileiro que é dd/mm/aaaa (dia/mês/ano), e quando precisamos salvar uma data no banco convertemos do padrão brasileiro para o padrão ISO 8601.
+
+Neste desafio você vai precisar criar um função que recebe uma data no formato BR e devolve a mesma data no formato ISO.
+
+**Requisitos**
+
++ Criar uma função converterDataParaIso
++ A função deve ser capaz de receber um argumento string no formato de data BR e devolver o mesmo valor no formato de data ISO
++ Quando a função receber como argumento um valor que não está no padrão BR, deverá retornar a mensagem de erro "Data inválida!"
+
+### 🔶 **converterDataParaBr();** ###
+
+🔹 **Resultado:** 
+
+### 🔶 **converterDataParaBr("12/09/2024");** ###
+
+🔹 **Resultado:** 
+
+### 🔶 **converterDataParaBr("2024/09");** ###
+
+🔹 **Resultado:** 
+
+### 🔶 **converterDataParaBr("09/13");** ###
+
+🔹 **Resultado:** 
+
+### 🔶 **converterDataParaBr("13/09/2024");** ###
+
+🔹 **Resultado:** 
+
+### 🔶 **converterDataParaBr("22/09/13");** ###
+
+🔹 **Resultado:** 
+
+### 🔶 **converterDataParaBr("2020-09/13");** ###
+
+🔹 **Resultado:** 
+
+### 🔶 **converterDataParaBr("13-09-2024");** ###
+
+🔹 **Resultado:** 
+
+### 🔶 **converterDataParaBr("data");** ###
+
+🔹 **Resultado:** 
+
+### 🔶 **converterDataParaBr(123);** ###
+
+🔹 **Resultado:** 
+
+### 🔶 **converterDataParaBr({});** ###
+
+🔹 **Resultado:** 
+
+### 🔶 **converterDataParaBr([]);** ###
+
+🔹 **Resultado:** 
+
+### 🔶 **converterDataParaBr(true);** ###
+
+🔹 **Resultado:** 
+
+### 🔶 **converterDataParaBr(false);** ###
+
+🔹 **Resultado:** 
+
+
+## **9. [Minúsculo para maiúsculo](https://kelvysmoura.github.io/js-logic/#minusculoParaMaiusculo)** ##
+_Para este desafio, foi utilizado a [Tabela ASCII](https://www.matematica.pt/util/resumos/tabela-ascii.php)_
+_Para este desafio, não foi permitido o uso de String.toUpperCase()_
+
+Neste desafio você vai receber um texto qualquer e precisará retornar o mesmo texto porém com todas as letras e maiúsculas
+
+**Requisitos**
+
++ Criar uma função minusculoParaMaiusculo
++ A função deve ser capaz de receber um texto como argumento e retornar o mesmo texto com todas as letras maiúsculas.
++ A função deve retornar a mensagem de erro "Argumento inválido!" quando receber um argumento diferente de string
+
+### 🔶 **minusculoParaMaiusculo();** ###
+
+🔹 **Resultado:** 
+
+### 🔶 **minusculoParaMaiusculo("katchau!");** ###
+
+🔹 **Resultado:** 
+
+### 🔶 **minusculoParaMaiusculo(123);** ###
+
+🔹 **Resultado:** 
+
+### 🔶 **minusculoParaMaiusculo("Texto em letras maiúsculas");** ###
+
+🔹 **Resultado:** 
+
+### 🔶 **minusculoParaMaiusculo(["Texto"]);** ###
+
+🔹 **Resultado:** 
+
+### 🔶 **minusculoParaMaiusculo("CONTEÚDO DE TEXTO");** ###
+
+🔹 **Resultado:** 
+
+### 🔶 **minusculoParaMaiusculo({});** ###
+
+🔹 **Resultado:** 
+
+### 🔶 **minusculoParaMaiusculo(false);** ###
+
+🔹 **Resultado:** 
+
+### 🔶 **minusculoParaMaiusculo("0123456789");** ###
+
+🔹 **Resultado:** 
+
+### 🔶 **minusculoParaMaiusculo(true);** ###
+
+🔹 **Resultado:** 
+
+
+## **10. [Data atual](https://kelvysmoura.github.io/js-logic/#dataAtual)** ##
+
+Neste desafio você vai precisando retornar a data atual no formato dd/mm/aaaa (dia/mês/ano), usando uma instância de de Date.
+
+**Requisitos**
+
++ Criar uma função dataAtual
++ A função deve ser capaz de retornar a data atual no formato dd/mm/aaaa (dia/mês/ano)
++ A função deve ter pelo menos uma instância de Date
++ A função deve chamar pelo menos uma vez as seguintes funções de Date
++ getDate()
++ getMonth()
++ getFullYear()
++ Os dias e meses menores 10 devem iniciar com o um 0 (zero) na frente
+
+### 🔶 **dataAtual();** ###
+
+🔹 **Resultado:** 18/06/2024
+
+
+## **11. [Primeira letra maiúscula](https://kelvysmoura.github.io/js-logic/#primeiraLetraMaiuscula)** ##
+_Para este desafio, foi utilizado a [Tabela ASCII](https://www.matematica.pt/util/resumos/tabela-ascii.php)_
+
+Neste desafio você vai receber um texto qualquer e precisará retornar o mesmo texto em letras minúsculas mas com a primeira letra de cada palavra maiúscula.
+
+**Requisitos**
+
++ Criar uma função primeiraLetraMaiuscula
++ A função deve ser capaz de receber um texto como argumento e retornar o mesmo texto com todas as letras minusculas a primera letra de cada palavra em maipusculo
++ A função deve retornar a mensagem de erro "Argumento inválido!" quando receber um argumento diferente de string
+
+### 🔶 **primeiraLetraMaiuscula();** ###
+
+🔹 **Resultado:** 
+
+### 🔶 **primeiraLetraMaiuscula("Katchau!");** ###
+
+🔹 **Resultado:** 
+
+### 🔶 **primeiraLetraMaiuscula(123);** ###
+
+🔹 **Resultado:** 
+
+### 🔶 **primeiraLetraMaiuscula("texto em letras maiúsculas");** ###
+
+🔹 **Resultado:** 
+
+### 🔶 **primeiraLetraMaiuscula(["Texto"]);** ###
+
+🔹 **Resultado:** 
+
+### 🔶 **primeiraLetraMaiuscula("cONTEÚDO de tEXTO");** ###
+
+🔹 **Resultado:** 
+
+### 🔶 **primeiraLetraMaiuscula({});** ###
+
+🔹 **Resultado:** 
+
+### 🔶 **primeiraLetraMaiuscula(false);** ###
+
+🔹 **Resultado:** 
+
+### 🔶 **primeiraLetraMaiuscula("0123456789");** ###
+
+🔹 **Resultado:** 
+
+### 🔶 **primeiraLetraMaiuscula(true);** ###
+
+🔹 **Resultado:** 
