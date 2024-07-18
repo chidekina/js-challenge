@@ -1,17 +1,17 @@
 # Índice
 
 * [JS Challenge](#js-challenge--)
-* [1.Hello World](#1-hello-world)
-* [2.Somar números](##2-somar-números)
-* [3.Somar ímpares](#3-somar-ímpares)
-* [4.Criptografia de César](#4-criptografia-de-césar)
-* [5.Converter data ISO para BR](#5-converter-data-iso-para-br)
-* [6.Inverter lista](#6-inverter-lista)
-* [7.Template](#7-template)
-* [8.Converter data BR para ISO](#8-converter-data-br-para-iso)
-* [9.Minúsculo para maiúsculo](#9-minúsculo-para-maiúsculo)
-* [10.Data atual](#10-data-atual)
-* [11.Primeira letra maiúscula](#11-primeira-letra-maiúscula)
+* [1. Hello World](#1-hello-world)
+* [2. Somar números](##2-somar-números)
+* [3. Somar ímpares](#3-somar-ímpares)
+* [4. Criptografia de César](#4-criptografia-de-césar)
+* [5. Converter data ISO para BR](#5-converter-data-iso-para-br)
+* [6. Inverter lista](#6-inverter-lista)
+* [7. Template](#7-template)
+* [8. Converter data BR para ISO](#8-converter-data-br-para-iso)
+* [9. Minúsculo para maiúsculo](#9-minúsculo-para-maiúsculo)
+* [10. Data atual](#10-data-atual)
+* [11. Primeira letra maiúscula](#11-primeira-letra-maiúscula)
 
 # JS Challenge - 
 
